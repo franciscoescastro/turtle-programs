@@ -1,0 +1,8 @@
+penDown $k = 2
+repeat $k
+    repeat $k
+        move 15
+        turn 40
+    end
+    $k = 3
+end

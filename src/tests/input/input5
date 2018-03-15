@@ -1,0 +1,17 @@
+$key = 3
+$length = 2
+repeat 2
+	repeat $length
+		move $length
+		turn 90
+	end
+	$length = $key
+end
+
+$key = 1
+move $key
+
+$length = $key
+
+$key = 5
+move $length
